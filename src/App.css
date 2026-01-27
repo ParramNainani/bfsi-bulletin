@@ -1427,7 +1427,7 @@ a.initiativeCard:hover {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(980px 560px at 12% 18%, rgba(11, 46, 109, 0.18), transparent 58%),
+    radial-gradient(980px 560px at 12% 18%, rgba(11, 46, 109, 0.18), transparent 59%),
     radial-gradient(980px 560px at 92% 18%, rgba(11, 46, 109, 0.12), transparent 60%),
     linear-gradient(120deg, rgba(0, 39, 90, 0.92), rgba(1, 66, 146, 0.781));
 }
