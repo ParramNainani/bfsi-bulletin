@@ -1,0 +1,7 @@
+<svg width="360" height="120" viewBox="0 0 360 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="358" height="118" rx="18" fill="#FFFFFF" fill-opacity="0.92"/>
+  <rect x="1" y="1" width="358" height="118" rx="18" stroke="#E6EDF7"/>
+  <path d="M58 74C72 46 92 46 106 74" stroke="#1D4ED8" stroke-opacity="0.55" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="82" cy="58" r="10" fill="#F6C21A" fill-opacity="0.8"/>
+  <text x="130" y="68" font-family="ui-sans-serif,system-ui" font-size="22" font-weight="700" fill="#0F172A">Metrics</text>
+</svg>

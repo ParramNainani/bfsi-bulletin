@@ -108,7 +108,7 @@ export default function ContactForm({
       setForm({ name: '', designation: '', email: '', phone: '', company: '', message: '' })
       setTouched({})
       setStatus({ state: 'success' })
-    } catch (err: unknown) {
+    } catch {
       setStatus({ state: 'error', message: 'Something went wrong. Please try again.' })
     }
   }

@@ -1,0 +1,8 @@
+<svg width="360" height="120" viewBox="0 0 360 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="358" height="118" rx="18" fill="#FFFFFF" fill-opacity="0.92"/>
+  <rect x="1" y="1" width="358" height="118" rx="18" stroke="#E6EDF7"/>
+  <rect x="52" y="38" width="56" height="44" rx="10" fill="#0F172A" fill-opacity="0.10"/>
+  <path d="M62 48H98V72H62V48Z" stroke="#0F172A" stroke-opacity="0.55" stroke-width="6"/>
+  <path d="M64 70L96 50" stroke="#F6C21A" stroke-opacity="0.75" stroke-width="6" stroke-linecap="round"/>
+  <text x="130" y="68" font-family="ui-sans-serif,system-ui" font-size="22" font-weight="700" fill="#0F172A">Automation</text>
+</svg>

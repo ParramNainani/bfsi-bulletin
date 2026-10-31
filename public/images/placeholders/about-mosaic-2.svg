@@ -1,0 +1,17 @@
+<svg width="900" height="560" viewBox="0 0 900 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="40" y1="40" x2="860" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A" stop-opacity="0.92"/>
+      <stop offset="0.55" stop-color="#15519E" stop-opacity="0.92"/>
+      <stop offset="1" stop-color="#2F6FED" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="560" rx="28" fill="url(#g)"/>
+  <rect x="62" y="74" width="776" height="160" rx="22" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.18)"/>
+  <rect x="62" y="262" width="776" height="224" rx="22" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.14)"/>
+  <path d="M110 156H540" stroke="rgba(255,255,255,0.44)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M110 198H420" stroke="rgba(255,255,255,0.30)" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="780" cy="154" r="28" fill="rgba(246,194,26,0.60)"/>
+  <path d="M140 420L250 320L340 404L520 240L660 352" stroke="rgba(14,165,233,0.70)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="62" y="520" font-family="ui-sans-serif,system-ui" font-size="28" font-weight="700" fill="rgba(255,255,255,0.90)">Benchmarking • insights • collaboration</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="40" y1="80" x2="680" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1D4ED8"/>
+      <stop offset="0.55" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#DBEAFE"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="720" rx="36" fill="url(#g)"/>
+  <circle cx="220" cy="250" r="120" fill="rgba(255,255,255,0.35)"/>
+  <circle cx="520" cy="520" r="160" fill="rgba(15,23,42,0.10)"/>
+  <path d="M130 520C210 420 310 420 390 520" stroke="rgba(11,18,37,0.35)" stroke-width="18" stroke-linecap="round"/>
+  <path d="M410 300C486 216 574 214 650 296" stroke="rgba(11,18,37,0.30)" stroke-width="18" stroke-linecap="round"/>
+  <text x="64" y="654" font-family="ui-sans-serif,system-ui" font-size="34" font-weight="700" fill="rgba(11,18,37,0.88)">CoE Enablement</text>
+</svg>

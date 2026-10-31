@@ -1,10 +1,12 @@
+import brandLogo from '../assets/CoE Brand Logo.png'
+
 export default function SiteFooter() {
   return (
     <footer className="footer">
       <div className="container footerTop">
         <div className="footerBrand">
           <div className="brand brandFooter" aria-label="BFSI Bulletin">
-            <div className="brandLogoPlaceholder">BFSI Bulletin</div>
+            <img className="brandLogoImg brandLogoImgFooter" src={brandLogo} alt="BFSI Bulletin" />
           </div>
           <p className="footerTagline">
             A platform for BFSI Leaders to engage, reflect, and chart the way forward.

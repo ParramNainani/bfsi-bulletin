@@ -1,9 +1,11 @@
+import brandLogo from '../assets/CoE Brand Logo.png'
+
 export default function SiteHeader() {
   return (
     <header className="header">
       <div className="container headerInner">
         <a className="brand" href="#home" aria-label="BFSI Bulletin">
-          <div className="brandLogoPlaceholder">BFSI Bulletin</div>
+          <img className="brandLogoImg" src={brandLogo} alt="BFSI Bulletin" />
         </a>
 
         <nav className="nav" aria-label="Primary">

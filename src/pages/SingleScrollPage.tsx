@@ -2,6 +2,17 @@ import { motion, useReducedMotion } from 'framer-motion'
 import { useEffect, useMemo, useState, type PointerEvent } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
+import crowdPhoto from '../assets/PIC_Crowd 3.png'
+import networkingPhoto from '../assets/PIC_Networking 2.png'
+import valuePhoto from '../assets/images/ValueWe.png'
+import qnaPhoto from '../assets/PIC_QnA.png'
+import image1Photo from '../assets/image1.jpeg'
+import newContactPhoto from '../assets/images/new-contact.jpeg'
+
+import strategyIcon from '../assets/icons/strategy.svg'
+import platformIcon from '../assets/icons/platform.svg'
+import deliveryIcon from '../assets/icons/delivery.svg'
+
 import ContactForm from '../components/ContactForm'
 
 export default function SingleScrollPage() {
@@ -54,7 +65,7 @@ export default function SingleScrollPage() {
         title: 'Thematic Conferences',
         meta: 'Day-long Agenda | Stage Sessions | Breakout Talks',
         desc: 'Elite lineup of speakers and screened delegation, supported by a large audience pool to gather industry sentiment.',
-        icon: '📊',
+        icon: strategyIcon,
         idealFor: ['Solution Presentations', 'Fireside Chats', 'Brand Visibility'],
       },
       {
@@ -62,7 +73,7 @@ export default function SingleScrollPage() {
         title: 'Bespoke Roundtables',
         meta: 'Exclusivity Commitment | Invite-Only | Discussion Prompts',
         desc: 'High Quality Dialogue with Decision-Makers, with ample attention and extensive conversations with each participant.',
-        icon: '🎯',
+        icon: platformIcon,
         idealFor: ['Account Based Marketing', 'Report Curation', 'Interpersonal Bonding'],
       },
       {
@@ -70,7 +81,7 @@ export default function SingleScrollPage() {
         title: 'Branded Content',
         meta: 'Articles | Interviews | Tagged Posts',
         desc: 'Structured storytelling that evokes thought—paired with subliminal inclusion which feels natural.',
-        icon: '✍️',
+        icon: deliveryIcon,
         idealFor: ['Trust Building', 'Propelling Narratives', 'Digital Reach'],
       },
     ],
@@ -119,10 +130,7 @@ export default function SingleScrollPage() {
             animate={prefersReducedMotion ? undefined : { opacity: 1, scale: 1 }}
             transition={{ duration: 0.7, ease: 'easeOut' }}
           >
-            <div className="heroImgPlaceholder">
-              <span className="placeholderIcon">🏦</span>
-              <span className="placeholderText">Hero Image</span>
-            </div>
+            <img className="heroImg" src={crowdPhoto} alt="BFSI Bulletin event moments" />
             <div className="mediaCaption">Trusted forums. Real conversations. Clear momentum.</div>
           </motion.div>
         </div>
@@ -149,32 +157,30 @@ export default function SingleScrollPage() {
         </div>
       </section>
 
-      <section id="about" className="section">
+      <section id="about" className="section sectionTight">
         <div className="container">
-          <div className="split splitMedia">
-            <motion.div {...reveal}>
+          <div className="split splitMedia aboutSplit">
+            <motion.div {...reveal} style={{ paddingRight: '2rem', maxWidth: '600px' }}>
               <div className="sectionHeader" style={{ marginBottom: 18 }}>
                 <h2>About BFSI Bulletin</h2>
-                <p className="aboutPlaceholder">
-                  [About section left empty for future content]
+                <p>
+                  BFSI Bulletin is a platform for Leaders of Banking, Financial Services, and Insurance to engage, reflect, and chart the way forward.
+                </p>
+                <p style={{ marginTop: 12 }}>
+                  Our initiatives aim to convene decision-makers in distinct formats like Thematic Conferences, Curated Roundtables, and Easy-going Evenings to foster meaningful discussions.
                 </p>
               </div>
+
+              <p className="subhead" style={{ marginTop: 18 }}>
+                With BFSI and Service Entities being at Crossroads for Enterprise Transformation, we bridge crucial discussion gaps by creating trusted spaces where perspectives converge and collaborations materialise.
+              </p>
             </motion.div>
 
             <motion.div {...reveal} className="panel mediaPanel">
               <div className="heroPhotoGrid" aria-label="BFSI Bulletin moments">
-                <div className="heroPhoto heroPhotoMain photoPlaceholder">
-                  <span className="placeholderIcon">📸</span>
-                  <span className="placeholderText">Main Photo</span>
-                </div>
-                <div className="heroPhoto heroPhotoSide photoPlaceholder">
-                  <span className="placeholderIcon">📸</span>
-                  <span className="placeholderText">Side Photo</span>
-                </div>
-                <div className="heroPhoto heroPhotoSide photoPlaceholder">
-                  <span className="placeholderIcon">📸</span>
-                  <span className="placeholderText">Side Photo</span>
-                </div>
+                <img className="heroPhoto heroPhotoMain" src={image1Photo} alt="Panel discussion" loading="lazy" />
+                <img className="heroPhoto heroPhotoSide" src={networkingPhoto} alt="Networking" loading="lazy" />
+                <img className="heroPhoto heroPhotoSide" src={qnaPhoto} alt="Q&A session" loading="lazy" />
               </div>
             </motion.div>
           </div>
@@ -222,7 +228,7 @@ export default function SingleScrollPage() {
                 onClick={() => setActiveKey(f.key)}
               >
                 <span className="formatTabIcon" aria-hidden="true">
-                  <span className="iconPlaceholder">{f.icon}</span>
+                  <img src={f.icon} alt="" />
                 </span>
                 <span className="formatTabText">{f.title}</span>
               </button>
@@ -240,7 +246,7 @@ export default function SingleScrollPage() {
               <div className="formatMain">
                 <div className="formatMainHead">
                   <div className="formatMainIcon" aria-hidden="true">
-                    <span className="iconPlaceholder">{active.icon}</span>
+                    <img src={active.icon} alt="" />
                   </div>
                   <div>
                     <h3 className="formatTitle">{active.title}</h3>
@@ -330,10 +336,12 @@ export default function SingleScrollPage() {
               </div>
 
               <motion.aside {...reveal} className="valueAside" aria-label="What you get">
-                <div className="valueAsidePlaceholder">
-                  <span className="placeholderIcon">🤝</span>
-                  <span className="placeholderText">Networking Image</span>
-                </div>
+                <img
+                  className="valueAsideImage"
+                  src={valuePhoto}
+                  alt="BFSI Bulletin networking"
+                  loading="lazy"
+                />
 
                 <div className="valueCta">
                   <div className="valueCtaTitle">Ready to build?</div>
@@ -352,7 +360,11 @@ export default function SingleScrollPage() {
         </div>
       </section>
 
-      <section id="contact" className="contactHero homeContact">
+      <section
+        id="contact"
+        className="contactHero homeContact"
+        style={{ ['--contactBg' as string]: `url(${newContactPhoto})` }}
+      >
         <div className="contactHeroOverlay" aria-hidden="true" />
         <div className="container contactHeroInner">
           <motion.div {...reveal} className="contactHeroCopy">

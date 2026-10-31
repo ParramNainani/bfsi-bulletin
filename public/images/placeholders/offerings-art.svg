@@ -1,0 +1,37 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="180" y1="140" x2="1040" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FACC15" stop-opacity="0.85"/>
+      <stop offset="0.6" stop-color="#FFFFFF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#FACC15" stop-opacity="0.25"/>
+    </linearGradient>
+    <radialGradient id="r" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(680 440) rotate(130) scale(660 520)">
+      <stop stop-color="#FACC15" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0B0E18" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="900" rx="40" fill="#FFFFFF"/>
+  <circle cx="740" cy="440" r="400" fill="url(#r)"/>
+
+  <g opacity="0.9">
+    <rect x="170" y="190" width="420" height="240" rx="28" fill="#FFFFFF" stroke="#D7DEE8"/>
+    <rect x="620" y="190" width="410" height="180" rx="28" fill="#FFFFFF" stroke="#D7DEE8"/>
+    <rect x="170" y="460" width="360" height="250" rx="28" fill="#FFFFFF" stroke="#D7DEE8"/>
+    <rect x="560" y="410" width="470" height="300" rx="28" fill="#FFFFFF" stroke="#D7DEE8"/>
+
+    <path d="M220 250H520" stroke="#FACC15" stroke-opacity="0.55" stroke-width="10" stroke-linecap="round"/>
+    <path d="M220 288H420" stroke="#0B6A78" stroke-opacity="0.20" stroke-width="10" stroke-linecap="round"/>
+    <path d="M220 326H470" stroke="#0B6A78" stroke-opacity="0.14" stroke-width="10" stroke-linecap="round"/>
+
+    <path d="M670 245H960" stroke="#0B6A78" stroke-opacity="0.20" stroke-width="10" stroke-linecap="round"/>
+    <path d="M670 283H860" stroke="url(#g)" stroke-opacity="0.7" stroke-width="10" stroke-linecap="round"/>
+
+    <path d="M220 530H470" stroke="#0B6A78" stroke-opacity="0.20" stroke-width="10" stroke-linecap="round"/>
+    <path d="M220 568H420" stroke="#FACC15" stroke-opacity="0.42" stroke-width="10" stroke-linecap="round"/>
+
+    <path d="M610 480H960" stroke="#FACC15" stroke-opacity="0.35" stroke-width="10" stroke-linecap="round"/>
+    <path d="M610 518H900" stroke="#0B6A78" stroke-opacity="0.18" stroke-width="10" stroke-linecap="round"/>
+    <path d="M610 556H820" stroke="#0B6A78" stroke-opacity="0.14" stroke-width="10" stroke-linecap="round"/>
+  </g>
+</svg>

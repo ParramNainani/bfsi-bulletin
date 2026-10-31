@@ -1,0 +1,8 @@
+<svg width="360" height="120" viewBox="0 0 360 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="358" height="118" rx="18" fill="#FFFFFF" fill-opacity="0.92"/>
+  <rect x="1" y="1" width="358" height="118" rx="18" stroke="#E6EDF7"/>
+  <circle cx="78" cy="60" r="22" fill="#0B6A78" fill-opacity="0.12"/>
+  <path d="M70 60C70 54.477 74.477 50 80 50C85.523 50 90 54.477 90 60C90 65.523 85.523 70 80 70C74.477 70 70 65.523 70 60Z" fill="#0B6A78" fill-opacity="0.65"/>
+  <path d="M100 68C108 52 124 48 136 60C148 72 162 70 170 56" stroke="#F6C21A" stroke-width="6" stroke-linecap="round"/>
+  <text x="190" y="68" font-family="ui-sans-serif,system-ui" font-size="22" font-weight="700" fill="#0F172A">Governance</text>
+</svg>
